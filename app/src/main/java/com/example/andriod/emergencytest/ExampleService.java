@@ -32,9 +32,7 @@ public class ExampleService extends Service {
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent)
                 .build();
-
         startForeground(1, notification);
-
         return START_NOT_STICKY;
     }
 
